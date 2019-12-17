@@ -11551,11 +11551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43121017870\\Documents\\oPfLIXfRONT\\Senai.OpFlix.Web.Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\43121017870\\Documents\\oPfLIXfRONT\\OpFlix_Sprint4\\Sprint4_MobileAndroid\\OpFlix_Sprint4\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
       "projectName": "Senai.OpFlix.WebApi",
-      "projectPath": "C:\\Users\\43121017870\\Documents\\oPfLIXfRONT\\Senai.OpFlix.Web.Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
+      "projectPath": "C:\\Users\\43121017870\\Documents\\oPfLIXfRONT\\OpFlix_Sprint4\\Sprint4_MobileAndroid\\OpFlix_Sprint4\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
       "packagesPath": "C:\\Users\\43121017870\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43121017870\\Documents\\oPfLIXfRONT\\Senai.OpFlix.Web.Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\43121017870\\Documents\\oPfLIXfRONT\\OpFlix_Sprint4\\Sprint4_MobileAndroid\\OpFlix_Sprint4\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

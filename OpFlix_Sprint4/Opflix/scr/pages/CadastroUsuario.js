@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, Image, StyleSheet, FlatList, AsyncStorage, TouchableOpacity, TextInput, ScrollView, Button } from 'react-native';
 
-
-
 // import { Container } from './styles';
 
 export default class Cadastro extends Component {

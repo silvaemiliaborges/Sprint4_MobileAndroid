@@ -3,8 +3,8 @@ import CategoriaScreen from './pages/Categoria';
 import LancamentoScreen from './pages/Lancamento.js';
 import LoginScreen from './pages/Login.js';
 import Cadastro from './pages/CadastroUsuario';
-import DentinhoScreen from './pages/Dentinho';
-
+// import DentinhoScreen from './pages/Dentinho.js';
+// import DentinhoScreen from './page/Dentinho';
 
 import { createAppContainer, createSwitchNavigator } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack';
@@ -58,27 +58,25 @@ const Navigator = createBottomTabNavigator(
         Categorias: {
             screen: CategoriaScreen,
         },
-        Dentinho: {
-            screen: DentinhoScreen,
-            navigationOptions: {
-                tabBarIcon: ({ tintColor }) => (
-                    <Image
-                        source={require("./assets/img/star_icon-icons.com_49980.png")}
-                        style={{
-                            width: 25,
-                            height: 25,
-                            alignSelf: "center",
-                            tintColor: '#FFFFFF'
-                        }}
-                        tintColor={tintColor}
-                    />
-                )
-            }
-        }
-    },
-
-
-
+        // Dentinho: {
+        //             screen: DentinhoScreen,
+        //             navigationOptions: {
+        //                 tabBarIcon: ({ tintColor }) => (
+        //                     <Image
+        //                         source={require("./assets/img/star_icon-icons.com_49980.png")}
+        //                         style={{
+        //                             width: 25,
+        //                             height: 25,
+        //                             alignSelf: "center",
+        //                             tintColor: '#FFFFFF'
+        //                         }}
+        //                         tintColor={tintColor}
+        //                     />
+        //                 )
+        //             }
+        //         }
+            },
+    
     {
         initialRouteName: 'Lancamentos',
         swipeEnabled: false,
@@ -105,6 +103,7 @@ export default createAppContainer(
             AuthStack,
             CadastroNavigator,
             LancamentoStack,
+            // DentinhoStack,
         },
         {
             initialRouteName: 'AuthStack',
